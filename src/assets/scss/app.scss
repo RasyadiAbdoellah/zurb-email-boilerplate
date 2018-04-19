@@ -1,0 +1,59 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+
+.masthead{
+  background-color: #d1427a;
+  padding: 20px;
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+}
+
+
+.content {
+  padding: 20px;
+}
+
+.pb {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.footer{
+  background-color: rgb(109, 94, 110);
+  height:10%;
+  
+
+  p{
+    color: white;
+    font: {
+      size: .8rem;
+      weight: 300;
+    }
+  }
+
+  a {
+    font: {
+      size: .8rem;
+      weight: 300;
+    }
+    color: white;
+    text-decoration: underline;
+
+  }
+}
+
+.mtb-2px{
+  margin: 1px 0;
+}
